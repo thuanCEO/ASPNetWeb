@@ -1,0 +1,12 @@
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\bin\Debug\net6.0\UOW.Service.deps.json
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\bin\Debug\net6.0\UOW.Service.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\bin\Debug\net6.0\UOW.Service.pdb
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.AssemblyInfoInputs.cache
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.AssemblyInfo.cs
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.csproj.CoreCompileInputs.cache
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.sourcelink.json
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\refint\UOW.Service.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.pdb
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\ref\UOW.Service.dll
