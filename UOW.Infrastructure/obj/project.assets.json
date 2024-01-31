@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "UOW.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UOW.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UOW.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UOW.Core/1.0.0": {
+      "type": "project",
+      "path": "../UOW.Core/UOW.Core.csproj",
+      "msbuildProject": "../UOW.Core/UOW.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "UOW.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\THUAN\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\FPT\\PRN221\\ASPNetWeb\\UOW.Core\\UOW.Core.csproj": {
+              "projectPath": "D:\\FPT\\PRN221\\ASPNetWeb\\UOW.Core\\UOW.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
