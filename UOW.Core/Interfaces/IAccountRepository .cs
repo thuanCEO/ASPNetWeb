@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UOW.Core.Interfaces
 {
-    public interface IGenericRepository<TEntity> where TEntity : class
+    public interface IAccountRepository<TEntity> where TEntity : class
     {
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();

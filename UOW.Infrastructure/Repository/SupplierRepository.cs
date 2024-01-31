@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UOW.Core.Interfaces;
 
-
 namespace UOW.Infrastructure.Repository
 {
-    public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
+    public abstract class SupplierRepository<TEntity> : ISupplierRepository<TEntity> where TEntity : class
     {
         public Task AddAsync(TEntity entity)
         {
@@ -35,4 +34,5 @@ namespace UOW.Infrastructure.Repository
             throw new NotImplementedException();
         }
     }
+
 }
