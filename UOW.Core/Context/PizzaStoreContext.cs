@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace WebAppRazorPages.Entities
+namespace UOW.Core.Entities
 {
     public partial class PizzaStoreContext : DbContext
     {

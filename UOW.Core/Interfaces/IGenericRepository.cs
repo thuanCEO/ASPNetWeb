@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq.Expressions;
 
-namespace UOW.Core.Interfaces
+namespace UOW.Core.Entities
 {
     public interface IGenericRepository<TEntity> where TEntity : class
     {
-        Task<TEntity> GetByIdAsync(int id);
-        Task<IEnumerable<TEntity>> GetAllAsync();
-        Task AddAsync(TEntity entity);
-        Task UpdateAsync(TEntity entity);
-        Task DeleteAsync(TEntity entity);
+
+        Task<TEntity?> GetById(Guid id);
+        Task<IEnumerable<TEntity>> GetAll();
+        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> expression);
+        Task<bool> Add(TEntity entity);
+        Task<bool> Remove(Guid id);
+        Task<bool> Upsert(TEntity entity, Guid id);
+
     }
 }

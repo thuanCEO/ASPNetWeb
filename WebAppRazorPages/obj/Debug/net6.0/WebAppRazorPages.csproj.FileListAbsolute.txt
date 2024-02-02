@@ -248,3 +248,9 @@ D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\runtimes\win\lib\net6.
 D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\obj\Debug\net6.0\WebAppRazorPages.csproj.AssemblyReference.cache
 D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\obj\Debug\net6.0\WebAppRazorPages.csproj.CopyComplete
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\AutoMapper.dll
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\UOW.Core.dll
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\UOW.Service.dll
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\UOW.Service.pdb
+D:\FPT\PRN221\ASPNetWeb\WebAppRazorPages\bin\Debug\net6.0\UOW.Core.pdb
