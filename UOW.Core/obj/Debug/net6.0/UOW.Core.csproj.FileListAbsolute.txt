@@ -10,3 +10,6 @@ D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\UOW.Core.dll
 D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\refint\UOW.Core.dll
 D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\UOW.Core.pdb
 D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\ref\UOW.Core.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\UOW.Core.csproj.AssemblyReference.cache
+D:\FPT\PRN221\ASPNetWeb\UOW.Core\bin\Debug\net6.0\UOW.Core.runtimeconfig.json
+D:\FPT\PRN221\ASPNetWeb\UOW.Core\obj\Debug\net6.0\UOW.Core.genruntimeconfig.cache

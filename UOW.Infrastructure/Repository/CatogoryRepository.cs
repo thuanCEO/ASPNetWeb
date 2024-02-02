@@ -1,37 +1,17 @@
-﻿using System;
+﻿using Microsoft.Extensions.Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UOW.Core.Interfaces;
+using UOW.Core.Entities;
 
 namespace UOW.Infrastructure.Repository
 {
-    public abstract class CatogoryRepository<TEntity> : ICatogoryRepository<TEntity> where TEntity : class
+    public abstract class CatogoryRepository : GenericRepository<Category>, ICatogoryRepository
     {
-        public Task AddAsync(TEntity entity)
+        public CatogoryRepository(PizzaStoreContext context, ILogger logger) : base(context, logger)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task DeleteAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<TEntity>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<TEntity> GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
         }
     }
 }

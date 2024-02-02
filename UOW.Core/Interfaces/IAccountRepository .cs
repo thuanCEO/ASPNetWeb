@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UOW.Core.Entities;
 
-namespace UOW.Core.Interfaces
-{
-    public interface IAccountRepository<TEntity> where TEntity : class
+public interface IAccountRepository: IGenericRepository<Account>
     {
-        Task<TEntity> GetByIdAsync(int id);
-        Task<IEnumerable<TEntity>> GetAllAsync();
-        Task AddAsync(TEntity entity);
-        Task UpdateAsync(TEntity entity);
-        Task DeleteAsync(TEntity entity);
+ 
+       
     }
-}
+

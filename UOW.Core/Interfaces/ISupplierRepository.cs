@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UOW.Core.Interfaces
+namespace UOW.Core.Entities
 {
-    public interface ISupplierRepository<TEntity> where TEntity : class
+    public interface ISupplierRepository : IGenericRepository<Supplier>
     {
-        Task<TEntity> GetByIdAsync(int id);
-        Task<IEnumerable<TEntity>> GetAllAsync();
-        Task AddAsync(TEntity entity);
-        Task UpdateAsync(TEntity entity);
-        Task DeleteAsync(TEntity entity);
+
     }
 }

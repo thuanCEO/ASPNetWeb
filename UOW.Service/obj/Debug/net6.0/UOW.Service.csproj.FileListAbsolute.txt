@@ -10,3 +10,7 @@ D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.dll
 D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\refint\UOW.Service.dll
 D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.pdb
 D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\ref\UOW.Service.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\bin\Debug\net6.0\UOW.Core.dll
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\bin\Debug\net6.0\UOW.Core.pdb
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.csproj.AssemblyReference.cache
+D:\FPT\PRN221\ASPNetWeb\UOW.Service\obj\Debug\net6.0\UOW.Service.csproj.CopyComplete

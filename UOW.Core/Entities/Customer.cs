@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebAppRazorPages.Entities
-{
+namespace UOW.Core.Entities
+{ 
     public partial class Customer
     {
         public Customer()
